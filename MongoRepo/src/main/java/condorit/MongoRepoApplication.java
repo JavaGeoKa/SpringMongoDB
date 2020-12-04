@@ -1,0 +1,13 @@
+package condorit;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class MongoRepoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MongoRepoApplication.class, args);
+	}
+
+}
